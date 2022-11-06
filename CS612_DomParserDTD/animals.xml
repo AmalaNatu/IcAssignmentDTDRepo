@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <!DOCTYPE animals [
+<!ELEMENT animals (animal+)>
+<!ELEMENT animal (name, breed)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT breed (#PCDATA)>
+]>
+ 
+<animals>
+<animal>
+<name>Dog</name>
+<breed>Rottweiler</breed>
+</animal>
+<animal>
+<name>Rabbit</name>
+<breed>Angora rabbit</breed>
+</animal>
+<animal>
+<name>Fish</name>
+<breed>koi</breed>
+</animal>
+</animals>
